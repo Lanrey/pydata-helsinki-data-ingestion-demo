@@ -1,5 +1,5 @@
 {
-  "name": "craft-agent",
+  "name": "data-ingestion-pydata-helenski-demo",
   "version": "0.4.8",
   "description": "Claude Code-like agent for Craft documents",
   "type": "module",
