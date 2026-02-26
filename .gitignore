@@ -1,12 +1,11 @@
-# dependencies (bun install)
-node_modules
+# Python virtual environments
+.venv
 
 # output
 out
 dist
 *.tgz
 .build
-apps/electron/release
 
 # code coverage
 coverage
@@ -30,6 +29,11 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 *.tsbuildinfo
 .wrangler
 .mintlify
+__pycache__/
+*.pyc
+
+# Python backend local environment
+python/.venv/
 
 # OSS sync temp directory
 .oss-sync-temp/
@@ -49,8 +53,8 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 # Lock files from other package managers
 pnpm-lock.yaml
 
-# Craft Agent local data (sessions, credentials, config)
-.craft-agent/
+# Local runtime data (sessions, credentials, config)
+.agent-runtime/
 
 # SSH keys and secrets
 *.pem

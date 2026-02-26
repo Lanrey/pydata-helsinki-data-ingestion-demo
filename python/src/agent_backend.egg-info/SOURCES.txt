@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/agent_backend/__init__.py
+src/agent_backend/auth.py
+src/agent_backend/bridge_mcp_server.py
+src/agent_backend/cli.py
+src/agent_backend/llm.py
+src/agent_backend/mcp_stdio.py
+src/agent_backend/models.py
+src/agent_backend/session_mcp_server.py
+src/agent_backend/storage.py
+src/agent_backend.egg-info/PKG-INFO
+src/agent_backend.egg-info/SOURCES.txt
+src/agent_backend.egg-info/dependency_links.txt
+src/agent_backend.egg-info/entry_points.txt
+src/agent_backend.egg-info/top_level.txt

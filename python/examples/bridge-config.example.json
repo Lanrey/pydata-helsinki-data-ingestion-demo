@@ -1,0 +1,29 @@
+{
+  "sources": [
+    {
+      "slug": "linear",
+      "name": "Linear",
+      "baseUrl": "https://api.linear.app",
+      "authType": "bearer",
+      "workspaceId": "default",
+      "provider": "linear",
+      "authScheme": "Bearer",
+      "defaultHeaders": {
+        "Accept": "application/json"
+      },
+      "guideRaw": "Use path '/graphql' with method POST and pass GraphQL payload in params."
+    },
+    {
+      "slug": "public-httpbin",
+      "name": "HTTPBin Public",
+      "baseUrl": "https://httpbin.org",
+      "authType": "none",
+      "workspaceId": "default",
+      "provider": "httpbin",
+      "defaultHeaders": {
+        "Accept": "application/json"
+      },
+      "guideRaw": "No auth required. Useful for connectivity checks."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+Metadata-Version: 2.4
+Name: agent-backend
+Version: 0.1.0
+Summary: Python backend and CLI for sources
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# Python Backend
+
+This package is the backend runtime for source management and MCP services.
+
+## Run
+
+```bash
+uv sync --project python
+PYTHONPATH=python/src uv run --project python agentctl --help
+PYTHONPATH=python/src uv run --project python python -m agent_backend.cli --help
+PYTHONPATH=python/src uv run --project python python -m agent_backend.session_mcp_server --help
+PYTHONPATH=python/src uv run --project python python -m agent_backend.bridge_mcp_server --help
+```
+
+## Copilot-style commands
+
+```bash
+PYTHONPATH=python/src uv run --project python agentctl auth login --provider github-copilot --from-gh
+PYTHONPATH=python/src uv run --project python agentctl auth status
+PYTHONPATH=python/src uv run --project python agentctl copilot suggest "find largest files" --shell zsh
+PYTHONPATH=python/src uv run --project python agentctl copilot explain --command "git status"
+PYTHONPATH=python/src uv run --project python agentctl copilot chat "summarize this repo"
+```
+
+Optional model env vars:
+
+```bash
+export AGENT_COPILOT_CHAT_URL="https://api.githubcopilot.com/chat/completions"
+export AGENT_COPILOT_MODEL="gpt-4.1"
+```
+
+## Workspace root contract
+
+Commands expect workspace roots under:
+
+`~/.agent-runtime/workspaces/<workspace-id>`
+
+Source config path:
+
+`<workspace-root>/sources/<source-slug>/config.json`

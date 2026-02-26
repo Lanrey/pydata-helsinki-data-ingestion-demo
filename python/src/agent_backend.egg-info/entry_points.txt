@@ -1,0 +1,5 @@
+[console_scripts]
+agentctl = agent_backend.cli:main
+bridge-mcp-server = agent_backend.bridge_mcp_server:main
+session-mcp-server = agent_backend.session_mcp_server:main
+sourcectl = agent_backend.cli:main
