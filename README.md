@@ -1,5 +1,15 @@
 # data-ingestion-pydata-helenski-demo
 
+## Presentation
+
+[PyData Helsinki Demo — Google Slides](https://docs.google.com/presentation/d/1iWNqe-PDDbrXpOal0TMOAvmb7SS7AzQsf6DyEvkgFMI/edit?usp=sharing)
+
+## Photos
+
+[![PyData Helsinki Photo 1](https://www.meetup.com/pydatahelsinki/photos/35854184/532932617/)](https://www.meetup.com/pydatahelsinki/photos/35854184/532932617/)
+
+[![PyData Helsinki Photo 2](https://www.meetup.com/pydatahelsinki/photos/35854184/532932618/)](https://www.meetup.com/pydatahelsinki/photos/35854184/532932618/)
+
 ## Python Backend (First-Time User Guide)
 
 If you are new, this guide is for you.
